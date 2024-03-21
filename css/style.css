@@ -3,3 +3,81 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    background-color: blue;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cal-10 {
+    height: 50px;
+    width: calc(100%/3);
+}
+
+/* classi di base */
+.border {
+    border: 2px dashed black;
+}
+
+
+/* class di colori */
+.bg-lightskyblue {
+    background-color: lightskyblue;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-violet {
+    background-color: violet;
+}
+
+.bg-darkblue {
+    background-color: darkblue;
+}
+
+.bg-blue {
+    background-color: rgb(0, 85, 244);
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-darkpink {
+    background-color: palevioletred;
+}
+
+.bg-lightgray {
+    background-color: lightgray;
+}
+
+.bg-greensea {
+    background-color: rgb(10, 121, 116);
+}
+
+.bg-orange {
+    background-color: rgb(233, 154, 6);
+}
+
+.bg-greenlight {
+    background-color: rgb(136, 255, 204);
+}
+
+.bg-black {
+    background-color: rgb(40, 41, 58);
+}
+
+/* fine classi colori */
