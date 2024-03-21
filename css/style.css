@@ -4,10 +4,25 @@
     box-sizing: border-box;
 }
 
+/* inizio header primo layout*/
+
 header {
     padding: 20px;
 }
 
+.container1 {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.cal-10 {
+    height: 50px;
+    width: calc(100%/3);
+}
+
+
+/* fine header primo layout */
+/* inizio secondo layout */
 .background-blue {
     width: 100%;
     padding: 40px;
@@ -20,12 +35,9 @@ header {
 
 }
 
+/* fine secondo layout */
 
-.container1 {
-    max-width: 1200px;
-    margin: auto;
-}
-
+/* inizio classi base */
 .container {
     max-width: 1200px;
     margin: auto;
@@ -40,11 +52,13 @@ header {
     align-items: center;
 }
 
-.cal-10 {
-    height: 50px;
-    width: calc(100%/3);
+.border {
+    border: 2px dashed black;
 }
 
+/* fine classi di base */
+
+/* inizio terzo-quarto-quinto layout */
 .cal-60 {
     width: 60%;
     height: 250px;
@@ -55,11 +69,15 @@ header {
     height: 250px;
 }
 
+/* fine terzo-quarto-quinto layout */
+/* inizio sesto layout */
 .cal-green {
     height: 600px;
     width: 100%;
 }
 
+/* fine sesto layout */
+/* inizio settimo layout */
 .cal-75 {
     width: calc(100%/6);
     height: 400px;
@@ -70,11 +88,23 @@ header {
     height: 400px;
 }
 
-/* fine classi di base */
-.border {
-    border: 2px dashed black;
+/* fine settimo layout */
+/* inizio ottavo layout */
+.cal-15 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
 }
 
+.text {
+    vertical-align: middle;
+    width: ;
+    height: 24px;
+}
+
+/* fine ottavo layout */
 
 /* class di colori */
 .bg-lightskyblue {
